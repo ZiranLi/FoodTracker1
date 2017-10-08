@@ -2,18 +2,18 @@
 //  MealTableViewController.swift
 //  FoodTracker
 //
-//  Created by Jane Appleseed on 11/15/16.
-//  Copyright © 2016 Apple Inc. All rights reserved.
+//  Created by Emanon on 2017/10/7.
+//  Copyright © 2017年 Apple Inc. All rights reserved.
 //
 
 import UIKit
+import os.log
 
 class MealTableViewController: UITableViewController {
-    
     //MARK: Properties
     
     var meals = [Meal]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,13 +26,15 @@ class MealTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //MARK: - Table view data source
+    // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
+        
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         return meals.count
     }
 
@@ -93,7 +95,7 @@ class MealTableViewController: UITableViewController {
     */
 
     /*
-    //MARK: - Navigation
+    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -103,7 +105,6 @@ class MealTableViewController: UITableViewController {
     */
     
     //MARK: Actions
-    
     @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
         if let sourceViewController = sender.source as? MealViewController, let meal = sourceViewController.meal {
             
@@ -113,6 +114,7 @@ class MealTableViewController: UITableViewController {
             meals.append(meal)
             tableView.insertRows(at: [newIndexPath], with: .automatic)
         }
+        
     }
     
     //MARK: Private Methods
@@ -122,20 +124,19 @@ class MealTableViewController: UITableViewController {
         let photo1 = UIImage(named: "meal1")
         let photo2 = UIImage(named: "meal2")
         let photo3 = UIImage(named: "meal3")
-
+        
         guard let meal1 = Meal(name: "Caprese Salad", photo: photo1, rating: 4) else {
             fatalError("Unable to instantiate meal1")
         }
-
+        
         guard let meal2 = Meal(name: "Chicken and Potatoes", photo: photo2, rating: 5) else {
             fatalError("Unable to instantiate meal2")
         }
-
+        
         guard let meal3 = Meal(name: "Pasta with Meatballs", photo: photo3, rating: 3) else {
             fatalError("Unable to instantiate meal2")
         }
-
+        
         meals += [meal1, meal2, meal3]
     }
-
 }
