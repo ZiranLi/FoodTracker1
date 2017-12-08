@@ -4,5 +4,5 @@ Building an UI and working with table views. Following the instructions on Apple
 # 2017/12/07 update
 ****************
 # Unit Test for hw2 part one
-I tested 12 cases in Foodtracker1 iOS application and they all passed.
+I tested 13 cases in Foodtracker1 iOS application and they all passed.
 ![Alt text](https://user-images.githubusercontent.com/31711525/33748404-5ab13446-db96-11e7-91b0-b8229b19b800.png)
