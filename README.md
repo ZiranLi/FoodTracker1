@@ -3,8 +3,16 @@ Building an UI and working with table views. Following the instructions on Apple
 ****************
 # 2017/12/07 update
 ****************
-# Unit Test for hw2 part one
+# Unit Test for hw2 part 1
 Check out the test cases:https://github.com/ZiranLi/FoodTracker1/blob/master/Test%20Case%20Sheet.xlsx
 
 A screenshot of my onw test cases running black box testing:
 ![Alt text](https://user-images.githubusercontent.com/31711525/33748404-5ab13446-db96-11e7-91b0-b8229b19b800.png)
+
+# For hw2 part 2
+
+# my hw2 part 2 is an iOS application, however, I need to create an Apple developer account to generate .ipa file which will spend like 100$. So I get authorized from Zulin Liu https://github.com/liuzulin/EC601_HW2/tree/master/HW2_Unit_Test and using his android application.  
+
+# Test by Amazon AWS test farm
+
+< img src="https://github.com/ZiranLi/FoodTracker1/blob/master/main.png" width="600" height="180">
