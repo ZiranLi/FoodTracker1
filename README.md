@@ -5,5 +5,6 @@ Building an UI and working with table views. Following the instructions on Apple
 ****************
 # Unit Test for hw2 part one
 Check out the test cases:https://github.com/ZiranLi/FoodTracker1/blob/master/Test%20Case%20Sheet.xlsx
+
 A screenshot of my onw test cases:
 ![Alt text](https://user-images.githubusercontent.com/31711525/33748404-5ab13446-db96-11e7-91b0-b8229b19b800.png)
