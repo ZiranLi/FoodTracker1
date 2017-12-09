@@ -15,4 +15,4 @@ A screenshot of my onw test cases running black box testing:
 
 # Test by Amazon AWS test farm
 
-< img src="https://github.com/ZiranLi/FoodTracker1/blob/master/main.png" width="600" height="180">
+![Alt text]("https://github.com/ZiranLi/FoodTracker1/blob/master/main.png")
